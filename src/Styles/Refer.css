@@ -1,0 +1,164 @@
+.main-div{
+    padding-left: 13%;
+    padding-right: 16%;
+}
+
+.routing {
+    width: 100%;
+    margin-top: 3%;
+    vertical-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.wallet-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.refer-code{
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#800080;
+}
+
+.r-code{
+    border:0.5px solid #c3c0c3;
+    border-radius: 10px;
+    width:140px;
+    text-align: center;
+}
+
+.r-code p{
+    font-weight: 500;
+    color: #000000;
+    letter-spacing: 0.5em;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.wallet-div{
+
+    border-radius: 18px;
+    padding-left: 18px;
+    padding-top: 10px;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    text-align: left;
+    width: 140px;
+    height:85px;
+}
+
+.wallet{
+    font-weight: 500;
+    font-size: 14px;
+    margin:0;
+    line-height: 24px;
+    color: #800080;
+}
+
+.amnt{
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+}
+
+.lists{
+    margin-top: 5%;
+}
+
+.header{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #800080;
+}
+
+.header .subheader{
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+.div-cards{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    column-gap: 2em;
+    overflow-x: hidden;
+    
+    border-radius:20px
+}
+
+.rect{
+    position: absolute;
+    left: 1182px;
+    width: 104px;
+    height: 228px;
+    background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.foot {
+    /* margin-left: 13%; */
+    margin-top: 8%;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    color: #800080;
+}
+
+.back-arrow {
+    display: none;
+}
+
+@media only screen and (max-width: 820px) {
+
+    .main-div{
+        padding-left: 0%;
+        margin-left: 5%;
+        padding-right: 0%;
+        margin-right: 0%;
+        max-width: 90%;
+    }
+
+    .back-arrow{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        color: #800080;
+        font-weight: 500;
+    }
+
+
+
+    .wallet-section{
+        align-items: flex-end;
+        column-gap:40px;
+    }
+
+    .wallet-div{
+        padding-left: 10px;
+        padding-top: 10px;
+
+        width: 253px;
+    }
+
+    .refer-code{
+        width: 150px;
+    }
+    
+    .div-cards{
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 0px;
+        min-width: 358px;
+    }
+
+    .rect{
+        display: none;
+    }
+}

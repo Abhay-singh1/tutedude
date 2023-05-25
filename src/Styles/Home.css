@@ -1,0 +1,169 @@
+.routing-div{
+    width:80%;
+    padding-left: 13%;
+    padding-top: 20px;
+    vertical-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.first-div{
+    display: flex;
+    column-gap: 125px;
+}
+
+.card-div{
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    justify-content: space-evenly;
+    margin-left: 13%;
+    margin-top:5%;
+    max-width:40%;
+}
+
+
+.head{
+    color:#800080;
+}
+
+.numericals{
+    font-size: 32px;
+    margin:0;
+    
+}
+
+.button{
+    background: #800080;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 16px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 40px;
+    gap:10px
+}
+
+.referral{
+
+    margin-top: 3%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:#800080;
+}
+
+.borderclr{
+    max-width: 400px;
+    /* padding: 1rem; */
+    position: relative;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    padding: 2px;
+    margin:0;
+    border-radius: 20px;
+}
+
+.code{
+    background-color: #FFFFFF;
+    font-weight: 500;
+    padding: 0.2rem;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 7px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 1.2rem;
+    color: #800080;
+}
+
+.second-div{
+    margin-left: 13%;
+    margin-top: 3%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:#800080;
+}
+
+.feature-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    column-gap:5em;
+    row-gap: 1em;
+    width: 100%;
+}
+
+.footer{
+    margin-left: 13%;
+    margin-top: 3%;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    color: #800080;
+}
+
+.term{
+    margin-top: 2%;
+}
+
+
+
+@media only screen and (max-width: 820px) {
+    .routing-div {
+        width: 80%;
+        padding-left: 10%;
+        padding-top: 20px;
+        vertical-align: center;
+    }
+
+    .first-div{
+        flex-direction: column;
+    }
+
+    .card-div{
+        column-gap: 7px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 10%;
+        padding-left: 15px;
+        margin-top: 5%;
+        min-width: 80%;
+        max-height:10%;
+    }
+
+    .button{
+        width: 140px;
+        height: 40px;
+        margin-top:40px;
+    }
+
+    .referral{
+        padding-left: 10%;
+        padding-top: 20px;
+        max-width: 80%;
+        margin-right: 10%;
+    }
+
+    .second-div{
+        padding-top: 20px;
+        max-width: 80%;
+    }
+
+    .feature-div{
+        column-gap: 0em;
+        row-gap: 1em;
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    .term{
+        margin-bottom: 10%;
+    }
+}

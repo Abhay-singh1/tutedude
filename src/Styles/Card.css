@@ -1,0 +1,99 @@
+.card{
+    border-radius: 20px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    min-width: 370px;
+    height: 228px;
+    color: white;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: ; */
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.date{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.course{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.heading{
+    font-weight: 500;
+    font-size: 14px;
+    margin:0;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.courses-div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:5px;
+    margin-left:15px;
+    margin-top:10px;
+    max-height:85px;
+    overflow-y: auto;
+}
+
+.courses-div p{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    margin-top:0px;
+    border:0.5px solid #ffffff;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.ref{
+    padding-left: 12px;
+    margin:0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.amnt{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:#ffffff
+}
+
+.courses-div::-webkit-scrollbar{
+    width: 5px;
+    
+}
+.courses-div::-webkit-scrollbar-thumb{
+background: #EEAEAE;
+border-radius: 2.5px;
+}
+
+
+@media only screen and (max-width: 820px) {
+    .card{
+        min-width: 100%;
+        padding-right: 0px;
+        margin:0;
+    }
+}
+
